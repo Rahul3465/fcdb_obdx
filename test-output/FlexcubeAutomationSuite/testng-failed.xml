@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FlexcubeAutomationSuite]">
+  <test name="Regression2">
+    <classes>
+      <class name="com.jmr.testsuite.sujeet.action.STDKYCMNTest"/>
+      <class name="com.jmr.testsuite.fas.action.st.STDCIF_Test"/>
+      <class name="com.jmr.testsuite.fas.action.st.STDCUSAC_Test"/>
+      <class name="com.jmr.testsuite.fas.action.st.DepositAccountBooking"/>
+      <class name="com.jmr.testsuite.fas.action.cl.CLDACCNT_Test"/>
+      <class name="com.jmr.testsuite.fas.action.cl.CLDMNDSB_Test"/>
+      <class name="com.jmr.testsuite.fas.action.cl.CLDPYMNT_Test"/>
+      <class name="com.jmr.testsuite.fas.action.cl.CLDACCVM_Test"/>
+      <class name="com.jmr.testsuite.fas.action.mm.MMDTRONL_Test"/>
+      <class name="com.jmr.testsuite.fas.action.wb.FXPurchaseWalkin_8004_Test"/>
+      <class name="com.jmr.testsuite.fas.action.wb.FXSaleWalIn_8203_Test"/>
+      <class name="com.jmr.testsuite.fas.action.wb.CashDeposit_1401Test"/>
+      <class name="com.jmr.testsuite.fas.action.wb.CashWithdrawl_1001Test"/>
+    </classes>
+  </test> <!-- Regression2 -->
+  <test name="Regression2(failed)">
+    <classes>
+      <class name="com.jmr.testsuite.fas.action.cl.CLDMNDSB_Test">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="executeTestCase"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.fas.action.cl.CLDMNDSB_Test -->
+      <class name="com.jmr.testsuite.fas.action.st.STDCIF_Test">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="executeTestCase"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.fas.action.st.STDCIF_Test -->
+      <class name="com.jmr.testsuite.fas.action.cl.CLDACCVM_Test">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="executeTestCase"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.fas.action.cl.CLDACCVM_Test -->
+      <class name="com.jmr.testsuite.fas.action.cl.CLDACCNT_Test">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="executeTestCase"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.fas.action.cl.CLDACCNT_Test -->
+      <class name="com.jmr.testsuite.fas.action.cl.CLDPYMNT_Test">
+        <methods>
+          <include name="executeTestCase"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.fas.action.cl.CLDPYMNT_Test -->
+      <class name="com.jmr.testsuite.fas.action.st.DepositAccountBooking">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="executeTestCase"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.fas.action.st.DepositAccountBooking -->
+      <class name="com.jmr.testsuite.fas.action.mm.MMDTRONL_Test">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="executeTestCase"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.fas.action.mm.MMDTRONL_Test -->
+      <class name="com.jmr.testsuite.fas.action.st.STDCUSAC_Test">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="executeTestCase"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.fas.action.st.STDCUSAC_Test -->
+      <class name="com.jmr.testsuite.fas.action.wb.CashWithdrawl_1001Test">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="executeTestCase"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.fas.action.wb.CashWithdrawl_1001Test -->
+      <class name="com.jmr.testsuite.fas.action.wb.FXPurchaseWalkin_8004_Test">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="executeTestCase"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.fas.action.wb.FXPurchaseWalkin_8004_Test -->
+      <class name="com.jmr.testsuite.sujeet.action.STDKYCMNTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="tearDown"/>
+          <include name="destroy"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.sujeet.action.STDKYCMNTest -->
+      <class name="com.jmr.testsuite.fas.action.wb.CashDeposit_1401Test">
+        <methods>
+          <include name="executeTestCase"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.fas.action.wb.CashDeposit_1401Test -->
+      <class name="com.jmr.testsuite.fas.action.wb.FXSaleWalIn_8203_Test">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="executeTestCase"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.fas.action.wb.FXSaleWalIn_8203_Test -->
+    </classes>
+  </test> <!-- Regression2(failed) -->
+</suite> <!-- Failed suite [FlexcubeAutomationSuite] -->
